@@ -51,6 +51,12 @@ header {
   padding: 5 rem 1.5 rem 1.5rem 1.5rem;
 }
 
+.me img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 /* ///////////////////////////////   SCROLL DOWN   //////////////////////////////// */
 
 .scroll_down {
@@ -65,7 +71,7 @@ header {
 /* ############################## MEDIA QUERIES ( MEDIUM deviceS) */
 
 @media screen and (max-width: 1024px) {
-  .container {
+  .header_container {
     height: 68vh;
   }
 }
@@ -73,7 +79,7 @@ header {
 /* ############################## MEDIA QUERIES ( MEDIUM deviceS) */
 
 @media screen and (max-width: 600px) {
-  .container {
+  .header_container {
     width: var(--container-width-sm);
   }
   header {

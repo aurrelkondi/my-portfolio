@@ -3,8 +3,8 @@ import "./nav.scss";
 import { BiHomeAlt } from "react-icons/bi";
 import { BiUserCircle } from "react-icons/bi";
 import { AiOutlineBook } from "react-icons/ai";
-import { GrServices } from "react-icons/gr";
-import { FcContacts } from "react-icons/fc";
+import { MdOutlineMiscellaneousServices } from "react-icons/md";
+import { RiContactsBookLine } from "react-icons/ri";
 import { useState } from "react";
 
 export default function Nav() {
@@ -37,15 +37,14 @@ export default function Nav() {
         onClick={() => setActiveNav("#services")}
         className={activeNav === "#services" ? "active" : ""}
       >
-        <GrServices />
+        <MdOutlineMiscellaneousServices />
       </a>
       <a
         href="#contact"
         onClick={() => setActiveNav("#contact")}
         className={activeNav === "#contact" ? "active" : ""}
       >
-        >
-        <FcContacts />
+        <RiContactsBookLine />
       </a>
     </nav>
   );
