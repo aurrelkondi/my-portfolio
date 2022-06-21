@@ -1,54 +1,33 @@
 import React from "react";
 import "./portfolio.scss";
-import IMG1 from "../../assets/img-1.jpg";
-import IMG2 from "../../assets/img-2.jpg";
-import IMG3 from "../../assets/img-3.jpg";
-import IMG4 from "../../assets/img-4.jpg";
+import IMG1 from "../../assets/img-11.png";
+import IMG2 from "../../assets/img-12.png";
+import IMG3 from "../../assets/img-13.png";
+/* import IMG4 from "../../assets/img-4.jpg";
 import IMG5 from "../../assets/img-5.jpg";
-import IMG6 from "../../assets/img-6.jpg";
+import IMG6 from "../../assets/img-6.jpg"; */
 
 export default function Portfolio() {
   const data = [
     {
       id: 1,
       image: IMG1,
-      title: "My Project",
-      github: "https://github.com",
+      title: "First-Project",
+      github: "https://github.com/aurrelkondi/My-First-Project",
       demo: "https://github.com",
     },
     {
       id: 2,
       image: IMG2,
-      title: "My Project",
-      github: "https://github.com",
+      title: "Portfolio-Html&Css",
+      github: "https://github.com/aurrelkondi/Portfolio",
       demo: "https://github.com",
     },
     {
       id: 3,
       image: IMG3,
-      title: "My Project",
-      github: "https://github.com",
-      demo: "https://github.com",
-    },
-    {
-      id: 4,
-      image: IMG4,
-      title: "My Project",
-      github: "https://github.com",
-      demo: "https://github.com",
-    },
-    {
-      id: 5,
-      image: IMG5,
-      title: "My Project",
-      github: "https://github.com",
-      demo: "https://github.com",
-    },
-    {
-      id: 6,
-      image: IMG6,
-      title: "My Project",
-      github: "https://github.com",
+      title: "Portfolio-React",
+      github: "https://github.com/aurrelkondi/my-portfolio",
       demo: "https://github.com",
     },
   ];

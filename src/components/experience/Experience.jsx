@@ -21,12 +21,12 @@ export default function Experience() {
             <article className="experience__details">
               <BsFillBookmarkCheckFill />
               <h4>CSS</h4>
-              <small className="text-light">Intermediate</small>
+              <small className="text-light">Experienced</small>
             </article>
             <article className="experience__details">
               <BsFillBookmarkCheckFill />
               <h4>JS</h4>
-              <small className="text-light">Experienced</small>
+              <small className="text-light">Intermediate</small>
             </article>
             <article className="experience__details">
               <BsFillBookmarkCheckFill />
@@ -36,7 +36,7 @@ export default function Experience() {
             <article className="experience__details">
               <BsFillBookmarkCheckFill />
               <h4>REACT</h4>
-              <small className="text-light">Experienced</small>
+              <small className="text-light">Intermediate</small>
             </article>
           </div>
         </div>

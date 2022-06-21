@@ -16,23 +16,15 @@ export default function Services() {
           <ul className="service__list">
             <li>
               <FaCheckCircle className="service__list-icon" />
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Website - Design</p>
             </li>
             <li>
               <FaCheckCircle className="service__list-icon" />
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Mobile App - Design</p>
             </li>
             <li>
               <FaCheckCircle className="service__list-icon" />
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <FaCheckCircle className="service__list-icon" />
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <FaCheckCircle className="service__list-icon" />
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Cross Platform - Compatibility</p>
             </li>
           </ul>
         </article>
@@ -44,51 +36,35 @@ export default function Services() {
           <ul className="service__list">
             <li>
               <FaCheckCircle className="service__list-icon" />
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>MERN Stack: MongoDB, Express, ReactJS, and Node.js</p>
             </li>
             <li>
               <FaCheckCircle className="service__list-icon" />
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>MEAN Stack: MongoDB, Express, AngularJS, and Node.js</p>
             </li>
             <li>
               <FaCheckCircle className="service__list-icon" />
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <FaCheckCircle className="service__list-icon" />
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <FaCheckCircle className="service__list-icon" />
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Django Stack: Django, Python, and MySQL as Database</p>
             </li>
           </ul>
         </article>
         {/* END OF WEB DEVELOPMENT */}
         <article className="service">
           <div className="service__head">
-            <h3>CONTENT CREATIONS</h3>
+            <h3>Content Creations</h3>
           </div>
           <ul className="service__list">
             <li>
               <FaCheckCircle className="service__list-icon" />
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Blog Posts</p>
             </li>
             <li>
               <FaCheckCircle className="service__list-icon" />
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Podcasts</p>
             </li>
             <li>
               <FaCheckCircle className="service__list-icon" />
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <FaCheckCircle className="service__list-icon" />
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <FaCheckCircle className="service__list-icon" />
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>eBooks</p>
             </li>
           </ul>
         </article>

@@ -10,9 +10,9 @@
 
 :root {
   --color-bg: black;
-  --color-bg-variant: blue;
+  --color-bg-variant: rgb(43, 130, 192);
   --color-primary: lightblue;
-  --color-primary-variant: purple;
+  --color-primary-variant: rgb(64, 215, 64);
   --color-white: white;
   --color-light: lightgrey;
 
@@ -36,10 +36,10 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.8;
-  background-image: url(https://images.unsplash.com/photo-1529310399831-ed472b81d589?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+  background-image: url(https://images.unsplash.com/photo-1586020435958-8298e2cb5f64?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
   background-size: contain;
-  background-repeat: no-repeat;
-  /* box-sizing: cover; */
+  /*   background-repeat: no-repeat;
+  box-sizing: cover; */
 }
 
 .container {

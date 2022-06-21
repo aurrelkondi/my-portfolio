@@ -15,6 +15,10 @@
   margin: 0 auto 1rem;
   border: 0.4rem solid var(--color-primary-variant);
 }
+
+.clients__avatar img {
+  height: 100%;
+}
 .testimonial {
   background: var(--color-bg-variant);
   text-align: center;

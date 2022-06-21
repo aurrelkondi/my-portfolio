@@ -3,6 +3,7 @@ import "./about.scss";
 import { FiAward } from "react-icons/fi";
 import { FiUsers } from "react-icons/fi";
 import { FaRegFolder } from "react-icons/fa";
+import img1 from "../../assets/IMG_3444.jpg";
 
 function About() {
   return (
@@ -12,10 +13,7 @@ function About() {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img
-              src="https://images.unsplash.com/photo-1531315630201-bb15abeb1653?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-              alt=""
-            />
+            <img src={img1} alt="" />
           </div>
         </div>
 
@@ -24,26 +22,29 @@ function About() {
             <article className="about__card">
               <FiAward className="about__icon" />
               <h5>Experience</h5>
-              <small>3+ Years Experience</small>
+              <small>1+ Years</small>
             </article>
 
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <small>5+ Worldwide</small>
             </article>
 
             <article className="about__card">
               <FaRegFolder className="about__icon" />
               <h5>Projects</h5>
-              <small>80+ completed</small>
+              <small>10+ completed</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam
-            numquam similique inventore corporis? Deleniti ut, libero provident
-            deserunt quasi odio similique et nemo distinctio neque dolor hic
-            nulla repellendus iure!
+            I'm Aurrel, an Albanian born Web Developer currently looking for
+            opportunities in Berlin. I started my adventure with DCI to fulfil
+            my dream, and everything is going in the right direction.
+            <br />
+            Web can sometimes be indistinguishable from magic, but in the future
+            I will have the knowledge and patience required to do almost
+            anything.
           </p>
 
           <a href="#contact" className="btn btn-primary"></a>
