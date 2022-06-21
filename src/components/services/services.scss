@@ -65,4 +65,8 @@
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
   }
+  .content {
+    transform: translateX(60%);
+    align-items: center;
+  }
 }

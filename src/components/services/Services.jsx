@@ -49,7 +49,7 @@ export default function Services() {
           </ul>
         </article>
         {/* END OF WEB DEVELOPMENT */}
-        <article className="service">
+        <article className="service content">
           <div className="service__head">
             <h3>Content Creations</h3>
           </div>

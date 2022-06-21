@@ -41,10 +41,10 @@ header {
 
 .me {
   background: linear-gradient(var(--color-primary), transparent);
-  width: 22rem;
+  width: 20rem;
   height: 30rem;
   position: absolute;
-  left: calc(50% - 11rem);
+  left: calc(50% - 10rem);
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
@@ -88,5 +88,8 @@ header {
   .header.socials,
   .scroll_down {
     display: none;
+  }
+  .me {
+    justify-content: left;
   }
 }
