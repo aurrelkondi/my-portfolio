@@ -7,7 +7,7 @@ import img1 from "../../assets/IMG_3444.jpg";
 
 function About() {
   return (
-    <section id="about ">
+    <section id="about">
       <h5>Get to know</h5>
       <h2>About me</h2>
       <div className="container about__container">
