@@ -14,21 +14,21 @@ export default function Portfolio() {
       image: IMG1,
       title: "First-Project",
       github: "https://github.com/aurrelkondi/My-First-Project",
-      demo: "https://github.com",
+      demo: "https://my-first-project-rho.vercel.app/index.html",
     },
     {
       id: 2,
       image: IMG2,
       title: "Portfolio-Html&Css",
       github: "https://github.com/aurrelkondi/Portfolio",
-      demo: "https://github.com",
+      demo: "https://portfolio-c26q2zwh5-aurrelkondi.vercel.app/#contact",
     },
     {
       id: 3,
       image: IMG3,
       title: "Portfolio-React",
       github: "https://github.com/aurrelkondi/my-portfolio",
-      demo: "https://github.com",
+      demo: "https://my-portfolio-wheat-nu.vercel.app/",
     },
   ];
 
