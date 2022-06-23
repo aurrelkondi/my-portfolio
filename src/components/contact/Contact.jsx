@@ -4,8 +4,11 @@ import "./contact.scss";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
+import { useState } from "react";
+import Modal from "./Modal";
 
 export default function Contact() {
+  const [submit, setSubmit] = useState(false);
   return (
     <section id="contact">
       <h2>Contact Me</h2>
@@ -41,7 +44,14 @@ export default function Contact() {
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
-        <form action="">
+        <form
+          action="https://formsubmit.co/aurrelkondi@hotmail.com"
+          method="POST"
+          onSubmit={(e) => {
+            e.preventDefault();
+            setSubmit(true);
+          }}
+        >
           <input
             type="text"
             name="name"
@@ -52,6 +62,7 @@ export default function Contact() {
           <input type="email" name="email" placeholder="Your Email" required />
 
           <textarea
+            type="text"
             name="message"
             rows="7"
             placeholder="Your Message"
@@ -61,6 +72,7 @@ export default function Contact() {
             Send Message
           </button>
         </form>
+        {submit ? <Modal setSubmit={setSubmit} /> : null}
       </div>
     </section>
   );
