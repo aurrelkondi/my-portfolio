@@ -6,13 +6,16 @@ import { BsTwitter } from "react-icons/bs";
 export default function HeaderSocials() {
   return (
     <div className="header_socials">
-      <a href="https://github.com/" target="_blank">
+      <a
+        href="https://www.linkedin.com/in/aurrel-kondi-348221221/"
+        target="_blank"
+      >
         <AiFillLinkedin />
       </a>
-      <a href="https://linkedin.com/" target="_blank">
+      <a href="https://github.com/aurrelkondi" target="_blank">
         <ImGithub />
       </a>
-      <a href="https://twitter.com/" target="_blank">
+      <a href="https://twitter.com/RrelKondi" target="_blank">
         <BsTwitter />
       </a>
     </div>

@@ -38,24 +38,22 @@ export default function Portfolio() {
       <h2 className="h2-element">Portfolio</h2>
 
       <div className="container portfolio__container">
-        {data.map(({ id, image, title, github, demo }) => {
-          return (
-            <article key={id} className="portfolio__item">
-              <div className="portfolio__item-image">
-                <img src={image} alt={title} />
-              </div>
-              <h3>{title}</h3>
-              <div className="portfolio__item-cta">
-                <a href={github} className="btn" target="_blank">
-                  Github
-                </a>
-                <a href={demo} className="btn btn-primary" target="_blank">
-                  Live Demo
-                </a>
-              </div>
-            </article>
-          );
-        })}
+        {data.map(({ id, image, title, github, demo }) => (
+          <article key={id} className="portfolio__item">
+            <div className="portfolio__item-image">
+              <img src={image} alt={title} />
+            </div>
+            <h3>{title}</h3>
+            <div className="portfolio__item-cta">
+              <a href={github} className="btn" target="_blank">
+                Github
+              </a>
+              <a href={demo} className="btn btn-primary" target="_blank">
+                Live Demo
+              </a>
+            </div>
+          </article>
+        ))}
       </div>
     </section>
   );

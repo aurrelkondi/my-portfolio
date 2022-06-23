@@ -12,9 +12,9 @@ export default function Nav() {
   return (
     <nav>
       <a
-        href="#"
+        href="/#"
         onClick={() => setActiveNav("#")}
-        className={activeNav === "#" ? "active" : null}
+        className={activeNav === "#" ? "active" : ""}
       >
         <BiHomeAlt />
       </a>
