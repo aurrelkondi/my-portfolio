@@ -37,13 +37,12 @@ function About() {
             </article>
           </div>
           <p>
-            I'm Aurrel, an Albanian born Web Developer currently looking for
-            opportunities in Berlin. I started my adventure with DCI to fulfil
-            my dream, and everything is going in the right direction.
-            <br />
-            Web can sometimes be indistinguishable from magic, but in the future
-            I will have the knowledge and patience required to do almost
-            anything.
+            A motivated web developer looking for opportunities in Berlin. I
+            have experience in writing simple frontend applications in React and
+            Node.js as backend connected to a MongoDB database. Currently, I'm
+            working towards becoming a Junior Frontend Engineer. I'm looking for
+            an internship which would allow me to get more experience in my
+            field.
           </p>
 
           <a href="#contact" className="btn btn-primary"></a>
