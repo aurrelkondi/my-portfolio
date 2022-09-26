@@ -43,7 +43,7 @@ export default function Services() {
             </li>
             <li>
               <FaCheckCircle className="service__list-icon" />
-              <p>Django Stack: Django, Python, and MySQL as Database</p>
+              <p>MySQL as Database</p>
             </li>
           </ul>
         </article>

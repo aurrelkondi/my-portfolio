@@ -27,7 +27,7 @@ function About() {
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>5+ Worldwide</small>
+              <small>3+ Worldwide</small>
             </article>
 
             <article className="about__card">

@@ -34,7 +34,7 @@ export default function Contact() {
           <article className="contact__option">
             <BsWhatsapp className="contact__option-icon" />
             <h4>WhatsApp</h4>
-            <h5>+49999999999</h5>
+            <h5>+4917620162083</h5>
             <a
               href="https://api.whatsapp.com/send?phone+49999999999"
               target="_blank"

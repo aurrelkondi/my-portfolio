@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/String&Array Methods.png";
+import CV from "../../assets/CV - Aurrel Kondi.pdf";
 
 export default function CTA() {
   return (

@@ -24,12 +24,12 @@ export default function Experience() {
             </article>
             <article className="experience__details">
               <BsFillBookmarkCheckFill />
-              <h4>JS</h4>
+              <h4>Bootstrap</h4>
               <small className="text-light">Intermediate</small>
             </article>
             <article className="experience__details">
               <BsFillBookmarkCheckFill />
-              <h4>BOOTSTRAP</h4>
+              <h4>Javascript</h4>
               <small className="text-light">Experienced</small>
             </article>
             <article className="experience__details">
@@ -55,7 +55,7 @@ export default function Experience() {
             </article>
             <article className="experience__details">
               <BsFillBookmarkCheckFill />
-              <h4>PHP</h4>
+              <h4>Express</h4>
               <small className="text-light">Basic</small>
             </article>
             <article className="experience__details">
@@ -65,7 +65,7 @@ export default function Experience() {
             </article>
             <article className="experience__details">
               <BsFillBookmarkCheckFill />
-              <h4>PYTHON</h4>
+              <h4>Mongoose</h4>
               <small className="text-light">Basic</small>
             </article>
           </div>

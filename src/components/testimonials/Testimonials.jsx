@@ -17,7 +17,7 @@ import "swiper/css/pagination";
 const data = [
   {
     avatar: AVTR1,
-    name: "Camila",
+    name: "Klea Marku",
     review:
       "It has been a great pleasure for me to work with a programmer like Aurrel",
   },
@@ -29,12 +29,6 @@ const data = [
   },
   {
     avatar: AVTR3,
-    name: "Tina",
-    review:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, ipsum!",
-  },
-  {
-    avatar: AVTR4,
     name: "Tina",
     review:
       " Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, ipsum!",

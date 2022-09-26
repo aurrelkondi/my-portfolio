@@ -1,8 +1,8 @@
 import React from "react";
 import "./portfolio.scss";
-import IMG1 from "../../assets/img-11.png";
-import IMG2 from "../../assets/img-12.png";
-import IMG3 from "../../assets/img-13.png";
+import IMG1 from "../../assets/wather-app-profile.png";
+import IMG2 from "../../assets/Coverter-app-profile.png";
+import IMG3 from "../../assets/Todo-list-profile.png";
 /* import IMG4 from "../../assets/img-4.jpg";
 import IMG5 from "../../assets/img-5.jpg";
 import IMG6 from "../../assets/img-6.jpg"; */
@@ -12,23 +12,23 @@ export default function Portfolio() {
     {
       id: 1,
       image: IMG1,
-      title: "First-Project",
-      github: "https://github.com/aurrelkondi/My-First-Project",
-      demo: "https://my-first-project-rho.vercel.app/index.html",
+      title: "Weather-app",
+      github: "https://github.com/aurrelkondi/JS-Weather-App",
+      demo: "https://js-weather-o1k4eqnbc-aurrelkondi.vercel.app/",
     },
     {
       id: 2,
       image: IMG2,
-      title: "Portfolio-Html&Css",
-      github: "https://github.com/aurrelkondi/Portfolio",
-      demo: "https://portfolio-c26q2zwh5-aurrelkondi.vercel.app/#contact",
+      title: "Converter-app",
+      github: "https://github.com/aurrelkondi/convertet-app-react",
+      demo: "https://convertet-app-react.vercel.app/",
     },
     {
       id: 3,
       image: IMG3,
-      title: "Portfolio-React",
-      github: "https://github.com/aurrelkondi/my-portfolio",
-      demo: "https://my-portfolio-wheat-nu.vercel.app/",
+      title: "Todo-list",
+      github: "https://github.com/aurrelkondi/Todo-React",
+      demo: "https://todo-react-lyart-beta.vercel.app/",
     },
   ];
 
