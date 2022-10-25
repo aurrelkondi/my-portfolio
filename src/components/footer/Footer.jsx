@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.scss";
-import { BsFacebook } from "react-icons/bs";
-import { BsInstagram } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 import { BsTwitter } from "react-icons/bs";
 
 export default function Footer() {
@@ -35,12 +35,12 @@ export default function Footer() {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="https://facebook.com/">
+        <a href="https://github.com/aurrelkondi" target="_blank">
           {" "}
-          <BsFacebook />
+          <BsGithub />
         </a>
-        <a href="https://instagram.com/">
-          <BsInstagram />
+        <a href="https://www.linkedin.com/in/aurrelkondi/" target="_blank">
+          <BsLinkedin />
         </a>
         <a href="https://twitter.com/">
           <BsTwitter />

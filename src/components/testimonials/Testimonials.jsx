@@ -19,19 +19,13 @@ const data = [
     avatar: AVTR1,
     name: "Klea Marku",
     review:
-      "It has been a great pleasure for me to work with a programmer like Aurrel",
+      "Many thanks for a great website, we are extremely pleased with the result. Finally I would like to say thanks for a great job and I am over the moon with the finished work I would recommend you to anyone.",
   },
   {
     avatar: AVTR2,
-    name: "Tina",
+    name: "Marco Silva",
     review:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, ipsum!",
-  },
-  {
-    avatar: AVTR3,
-    name: "Tina",
-    review:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, ipsum!",
+      " It has been a great pleasure for me to work with a programmer like Aurrel",
   },
 ];
 
