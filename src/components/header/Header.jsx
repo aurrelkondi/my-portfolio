@@ -9,7 +9,7 @@ export default function Header() {
     <header>
       <div className="container header_container">
         <h1>Aurrel Kondi</h1>
-        <h5 className="text-light">Fullstack Developer</h5>
+        <h5 className="text-light">Front End Developer</h5>
         <CTA />
         <HeaderSocials />
 
