@@ -1,6 +1,7 @@
 import React from "react";
 import CV from "../../assets/Resume - Aurrel Kondi.pdf";
 
+//Comment
 export default function CTA() {
 	return (
 		<div className="cta">
